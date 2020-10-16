@@ -19,31 +19,26 @@ body{
  
  .navigation{
      width: 100%;
+     margin-top: 3%;
  
  }
  .navigation-options{
      width: 100%;
+     
  }
  
  .nav-home{
-     color: rgb(102, 102, 163);
-     font-weight: bold;
+    color: #333a409a;
+     font-weight: 600;
      font-size: 1.5rem;
-     margin-right: 60%;
- }
- 
- 
- 
- 
- a{
-     color: rgb(97, 97, 97);
-     font-weight: lighter;
-     font-size: 1.5em;
+     margin-left: 10%;
      text-decoration: none;
+    
  }
  
+
  a:hover{
-     color: rgb(102, 102, 163);
+    color: #333a40;
  
  }
 
@@ -51,7 +46,7 @@ body{
 .page-wrapper{
     width: 100%;
     
-margin: 0;
+    margin: 0;
 }
 
 
@@ -64,7 +59,7 @@ margin: 0;
 
 .introduction{
     width: 100%;
-   
+   margin-top: 5%;
 display: inline-block;
 }
 .profile-pic{
@@ -98,6 +93,35 @@ p{
    font-size: 17px;
    line-height: 1.9;
 
+}
+
+.resume-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+   
+}
+
+.resume{
+  
+  color:#333a40;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid #333a40;
+  outline: none;
+  padding: 15px 40px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.resume:hover{
+    background-color:#333a40;
+  color:  #f5f1f1;
+  font-weight: 600;
 }
 
 .map{
@@ -152,27 +176,36 @@ h3{
 footer{
     width: 70%;
   
-    
+    margin: auto;
 }
 
 footer h1{
+    margin: auto;
     width: 50%;
-    font-weight: 900;
-    font-size: 3rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.contact{
+    margin-top: 5%;
+}
+.contact p{
+    width: 40%;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 .description-images{
-    width: 50%;
+    width: 10%;
   
 
-    text-align: center;
+    
   margin: auto;
-margin-top: 5%;
+margin-top: 1%;
 margin-bottom: 5%;
   }
 
   .description-images img{
-    width: 5%;
+    width: 25%;
   
   }
 
