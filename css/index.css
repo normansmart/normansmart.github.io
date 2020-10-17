@@ -93,13 +93,14 @@ a{
   width: 100%;
  position: absolute;
  top: 3%;
+ 
 
 }
 
 
 .btn {
  position: relative;
- 
+ width: 15%;
   color:#333a40;
   text-align: center;
   text-decoration: none;
@@ -434,12 +435,16 @@ logo displays to be seen upon click of gd placeholders */
 
 
 
+/*
 
 
-/* mobile optimization*/
 
 @media only screen and (max-width:800px) {
-  /* For tablets: */
+ 
+body{
+  overflow: visible;
+}
+
   .project-container {
     width: 100%;
     height: 100%;
@@ -450,17 +455,38 @@ logo displays to be seen upon click of gd placeholders */
 
 .description-container{
   width: 100%;
-  
+  display: none;
   background-color: chocolate;
 }
 
 .about{
   display: none;
 }
+.switch{
+  width: 100%;
+  top: 0%;
+  background-color: chocolate;
+}
 
+.btn{
+  width: 33%;
 
+}
 
+#work{
+ float: left;
+ left: 0%;
+}
 
+#logofolio{
+  left: 0%;
+}
+
+#aboutme{
+ 
+ float: right;
+ 
+}
 
 
 
@@ -468,7 +494,7 @@ logo displays to be seen upon click of gd placeholders */
     width: 100vw;
     height: 100vw;
     left: 0;
-    background-color: brown;
+   
   }
 
   .gdwork{
@@ -476,3 +502,5 @@ logo displays to be seen upon click of gd placeholders */
   }
 
 }
+
+*/
