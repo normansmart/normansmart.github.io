@@ -1,6 +1,6 @@
 body{
     color: #333a40;
-     background-color: #f5f1f1;
+     background-color: #FAFAFA;
      font-family: 'Montserrat' , sans-serif;
      width: 100%;
      height: auto;
@@ -111,16 +111,17 @@ p{
   border: 2px solid #333a40;
   outline: none;
   padding: 15px 40px;
-  background-color: #f1f1f1;
+  background-color: #FAFAFA;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
   border-radius: 5px;
+  transition: .5s;
 }
 
 .resume:hover{
     background-color:#333a40;
-  color:  #f5f1f1;
+  color:  #FAFAFA;
   font-weight: 600;
 }
 
@@ -134,10 +135,14 @@ p{
     float: right;
 }
 
+.more{
+    width: 100%;
+    display: inline-block;
+}
+
 .moretab{
     width: 25%;
-    
-display: inline-block;
+ float: left;
     margin-left: 6.25%;
     margin-bottom: 3%;
 }
@@ -151,10 +156,10 @@ display: inline-block;
 }
 
 .tabtitle img{
-    width: 10%;  
+    width: 20%;  
 }
 
-h3{
+h2{
     width: 100%;
    margin: 0;
     color: #333a40;
@@ -168,13 +173,13 @@ h3{
    color: #333a40;
    margin: auto;
    font-family: 'Montserrat', sans-serif;
-   font-weight: 400;
+   font-weight: 500;
    font-size: 15px;
    line-height: 1.9;
 }
 
 footer{
-    width: 70%;
+    width: 100%;
   
     margin: auto;
 }
@@ -189,7 +194,7 @@ footer h1{
     margin-top: 5%;
 }
 .contact p{
-    width: 40%;
+    width: 30%;
     font-size: 1.2rem;
     text-align: center;
 }
