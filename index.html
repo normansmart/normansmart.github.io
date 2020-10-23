@@ -7,11 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,500,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="icon" href="images/home/home-logo.png" type="image/gif" sizes="16x16">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
+
+    <div class="navigation-bar">
+
+        <ul class="navigation">
+
+            <div class="nagivation-options">
+
+                <a class="nav-home" href="index.html"> 
+                    
+                    <img class="home" src="images/home/home-logo.png">
+               
+
+
+                </a>
+
+            </div>
+
+        </ul>
+
+
+    </div>
+
+
 
     <div class="body-container">
 
@@ -21,7 +45,8 @@
 
 
                 <h1 class="title"> Hello, I'm Norman.</h1>
-                <p class="description"> I'm a UX Designer based in New Jersey with experience in creating simple and
+                <p class="description">
+                    I'm a UX Designer based in New Jersey with experience in creating simple and
                     detailed user experiences for mobile and web apps.
 
                 </p>
@@ -77,7 +102,7 @@
 
                 <button class="btn active" id="work"> WORK </button>
                 <button class="btn" id="logofolio"> LOGOFOLIO </button>
-               
+
 
             </div>
 
@@ -200,6 +225,7 @@
             $('.uxwork').delay(300).fadeIn();
             $('.about ').delay(300).fadeIn();
             $('.about-link').delay(300).fadeIn();
+            $('.navigation-bar').delay(300).fadeIn();
         });
 
 
@@ -208,6 +234,7 @@
             $('.uxwork').fadeOut();
             $('.about').fadeOut();
             $('.about-link').fadeOut();
+            $('.navigation-bar').fadeOut();
             $('.gdwork').delay(300).fadeIn();
             $('.bunklogo').delay(300).fadeIn();
             $('.gd-logos').fadeIn();

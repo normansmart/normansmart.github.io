@@ -95,25 +95,34 @@ a.current {
 
 }
 
- .overview-container{
-  width: 100%;
-  display: flex;
-    justify-content: center;
-    align-items: center;
+.overview-container{
+    width: 100%;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+     margin-top: 50px;
    
- 
- }
+   }
 
  .overview{
-     width: 70%;
+     width: 40%;
      display: inline-block;
+     margin-left: 10%;
  }
 
 
+ .preview{
+    width: 40%;
+    display: inline-block;
+    margin-left: 10%; 
+}
 
 .preview img{
-    width: 100%;
+    width: 65%;
 }
+
+
+
 
 
 .display-image{
@@ -130,14 +139,17 @@ a.current {
  main{
      width: 100%;
      margin: auto;  
+
+     
  }
 
  section{
    width: 100%; 
    margin: auto;
-   margin-top: 5%;
+  
    padding-top: 5%;
   padding-bottom: 5%;
+  border-top: 1px solid #7F6A42;
  
  }
 
@@ -194,6 +206,12 @@ a.current {
 #section-6{
     background-color: #FFF7ED;
 }
+
+
+.goals-image{
+    width: 100%;
+}
+
 
 .nav-image{
     width: 70%;
