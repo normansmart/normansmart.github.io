@@ -6,8 +6,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,500,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="icon" href="images/home/home-logo.png" type="image/gif" sizes="16x16">
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
@@ -20,10 +22,10 @@
 
             <div class="nagivation-options">
 
-                <a class="nav-home" href="index.html"> 
-                    
+                <a class="nav-home" href="index.html">
+
                     <img class="home" src="images/home/home-logo.png">
-               
+
                 </a>
 
             </div>
@@ -331,7 +333,131 @@
 
 
 
+    <!-- Mobile view-->
+
+
+
+    <!-- Simulate a smartphone / tablet look -->
+    <div class="mobile-container">
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="#home" class="active">
+                <img class="home-mobile" src="images/home/home-logo.png">
+
+            </a>
+            <div id="myLinks">
+                <a href="#news">Work</a>
+                <a href="#contact">Logofolio</a>
+                <a href="#about">About</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="menu">
+                    <img class="menu-bar" src="images/home/menu.png">
+
+                </i>
+            </a>
+        </div>
+
+        <div class="content">
+            <div>
+                <h1 class="title-mobile">Hi, I'm <br> Norman</h1>
+                <p>I'm a UX Designer based in New Jersey with experience in creating simple and
+                    detailed user experiences for mobile and web apps.</p>
+
+                <p style="width: 50%; font-size: medium; font-weight: 600; border-bottom: 4px solid#333a40;">Check out
+                    my work</p>
+            </div>
+
+            <a href="proc.html">
+                <div class="work-container-mobile">
+
+                    <div class="work-image">
+                        <img class="image" src="images/ux/proc/banner.png">
+                    </div>
+
+                    <div class="project-description">
+
+                        <h3> PROC </h3>
+                        <p> Mobile app concept that helps users track and manage their health and finances. </p>
+
+                    </div>
+
+                    <div class="tags">
+                        <p> Concept</p>
+                    </div>
+
+                    <div class="tags">
+                        <p> Product Design</p>
+                    </div>
+
+                </div>
+
+            </a>
+
+
+            <a href="fitmi.html">
+                <div class="work-container-mobile">
+
+                    <div class="work-image">
+                        <img class="image" src="images/ux/fitmi/banner.png">
+                    </div>
+
+                    <div class="project-description">
+
+                        <h3> FITMI </h3>
+                        <p> Social media mobile application for fashion oriented people. </p>
+
+                    </div>
+
+                    <div class="tags">
+                        <p> User Research</p>
+                    </div>
+
+                    <div class="tags">
+                        <p> Product Design</p>
+                    </div>
+
+                    <div class="tags">
+                        <p> UX/UI</p>
+                    </div>
+
+                </div>
+
+            </a>
+
+
+
+
+            <!-- End smartphone / tablet look -->
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 
 </body>
+
+
+
 
 </html>

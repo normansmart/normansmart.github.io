@@ -3,7 +3,7 @@ html , body{
     height: 100%;
     margin: 0;
     background-color: #FAFAFA;
-    font-family: 'Raleway';
+    font-family: 'Montserrat', sans-serif;
 overflow: hidden;
  }
 
@@ -69,8 +69,9 @@ margin-top: 40%;
    margin: 20px;
    color: #333a40;
    font-family: 'Montserrat', sans-serif;
-   font-weight: 600;
+   font-weight: 900;
    text-align: center;
+   font-size: 4rem;
  }
 
  .description{
@@ -411,7 +412,7 @@ logo displays to be seen upon click of gd placeholders */
 .gd-logos{
   width: auto;
   height: 100%;
-  position: absolute;
+  position: relative;
   top: 0%;
   z-index: 0;
  
@@ -419,7 +420,7 @@ logo displays to be seen upon click of gd placeholders */
 
 .gd-logos img{
   height: 100%;
-  position: absolute;
+  position: relative;
 }
 
 .bunklogo{
@@ -460,72 +461,169 @@ logo displays to be seen upon click of gd placeholders */
 
 
 
-/*
 
 
 
-@media only screen and (max-width:800px) {
+
+@media only screen and (max-width:1000px) {
  
 body{
-  overflow: visible;
+  overflow: scroll;
 }
 
-  .project-container {
-    width: 100%;
-    height: 100%;
-    float: left;
-    background-color: aqua;
+.navigation-bar{
+  display: none;
+}
+
+  .body-container {
+display: none;
   }
 
 
-.description-container{
-  width: 100%;
-  display: none;
-  background-color: chocolate;
-}
-
-.about{
-  display: none;
-}
-.switch{
-  width: 100%;
-  top: 0%;
-  background-color: chocolate;
-}
-
-.btn{
-  width: 33%;
-
-}
-
-#work{
- float: left;
- left: 0%;
-}
-
-#logofolio{
-  left: 0%;
-}
-
-#aboutme{
- 
- float: right;
- 
-}
-
-
-
-  .uxwork {
-    width: 100vw;
-    height: 100vw;
-    left: 0;
+  .mobile-container {
+    max-width: inherit;
+    max-height: inherit;
+    margin: auto;
+    background-color: #FAFAFA;
    
+    color:  #333a40;
+
   }
 
-  .gdwork{
-    width: 100%;
+  
+
+  
+  .topnav {
+    overflow: hidden;
+ 
+ 
+    justify-content: center;
   }
+  
+  .topnav #myLinks {
+    display: none;
+
+  }
+  
+  .topnav a {
+    float: left;
+    color:  #333a40;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+
+  .active {
+  background-color:#FAFAFA;
+    color: white;
+  }
+
+ 
+
+  .home-mobile{
+    width: 40px;
+  }
+
+  .menu-bar{
+    width: 30px;
+  }
+
+
+.content{
+  width: 90%;
+  margin: auto;
+}
+
+.content p{
+  color: #333a40;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 50px;
+}
+
+.content h1{
+  line-height: 90px;
+}
+
+.title-mobile{
+margin-top: 100px;
+   color: #333a40;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 900;
+
+   font-size: 3rem;
+}
+
+
+.work-container-mobile{
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.062), 0 6px 20px 0 rgba(0, 0, 0, 0.13);
+}
+
+.image{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project-description h3{
+  margin: auto;
+  color: #333a40;
+ width: 90%;
+margin: 20px;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 0px;
+  
+}
+
+
+.project-description p{
+
+  margin: auto;
+  margin: 20px;
+ width: 90%;
+ margin-top: 0px;
+  color: #333a40;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 40px;
+}
+
+.tags{
+  background-color: #333a402a;
+
+text-align: center;
+border-radius: 100px;
+margin-left: 5%;
+margin-bottom: 20px;
+display: inline-block;
+}
+
+.tags p{
+
+  font-size: .9rem;
+  font-weight: 400;
+  margin: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+ 
+  
+}
+
+
+
+
+
 
 }
 
-*/
