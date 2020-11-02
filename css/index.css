@@ -495,14 +495,24 @@ display: none;
   
   .topnav {
     overflow: hidden;
- 
- 
+ width: 100%;
+ display: flex;
     justify-content: center;
+    align-items: center;
+
+ 
+   
   }
   
-  .topnav #myLinks {
-    display: none;
+.Links {
+  width: 90%;
+  margin-left: 30%;
 
+  }
+
+  .Links a{
+    margin-right: 10%;
+ 
   }
   
   .topnav a {
@@ -510,12 +520,10 @@ display: none;
     color:  #333a40;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
   }
   
-  .topnav a.icon {
-    float: right;
-  }
+
   
 
   .active {
@@ -553,7 +561,7 @@ display: none;
 
 .title-mobile{
 margin-top: 100px;
-   color: #333a40;
+   color: #353535;
    font-family: 'Montserrat', sans-serif;
    font-weight: 900;
 
@@ -566,19 +574,22 @@ margin-top: 100px;
   margin-top: 100px;
   margin-bottom: 100px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.062), 0 6px 20px 0 rgba(0, 0, 0, 0.13);
+ 
 }
 
 .image{
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0  #3535353f;
 }
 
 .project-description h3{
   margin: auto;
   color: #333a40;
  width: 90%;
-margin: 20px;
+margin: 0px;
+margin-top: 15px;
+margin-bottom: 15px;
   font-weight: 600;
   font-size: 2rem;
   margin-bottom: 0px;
@@ -589,7 +600,7 @@ margin: 20px;
 .project-description p{
 
   margin: auto;
-  margin: 20px;
+  margin: 0px;
  width: 90%;
  margin-top: 0px;
   color: #333a40;
@@ -599,26 +610,11 @@ margin: 20px;
   line-height: 40px;
 }
 
-.tags{
-  background-color: #333a402a;
 
-text-align: center;
-border-radius: 100px;
-margin-left: 5%;
-margin-bottom: 20px;
-display: inline-block;
-}
 
-.tags p{
 
-  font-size: .9rem;
-  font-weight: 400;
-  margin: 14px;
-  margin-top: 0px;
-  margin-bottom: 0px;
- 
-  
-}
+
+
 
 
 
@@ -626,4 +622,3 @@ display: inline-block;
 
 
 }
-
