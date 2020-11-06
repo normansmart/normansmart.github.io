@@ -2,7 +2,7 @@ html , body{
     width: 100%;
     height: 100%;
     margin: 0;
-    background-color: #FAFAFA;
+    background-color: #ffffff;
     font-family: 'Montserrat', sans-serif;
 overflow: hidden;
  }
@@ -13,30 +13,57 @@ overflow: hidden;
   
  }
 
- .navigation-bar{
+ 
+
+ .topnav {
+  overflow: hidden;
   width: 100%;
-  height: 8%;
-  margin-top: 0%;
-  position: absolute;
-  
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color:  #ffffffd3;
 
 
-.navigation{
-  width: 100%;
-  margin-top: 1%;
-
-}
-.navigation-options{
-  width: 100%;
-  
-}
-
-.home{
-width: 3%;
-margin-left: 3%;
  
 }
+
+#Links {
+width: 70%;
+
+
+}
+
+#Links a{
+  margin-right: 10px;
+float: right;
+}
+
+.topnav a {
+  float: left;
+  color:  #333a40;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+ background-color: white;
+}
+
+
+
+
+.active-nav {
+
+  color: white;
+}
+
+
+
+.home-mobile{
+  width: 50%;
+
+}
+
+
 
 /**  Section for my photos and descriptions of each category:
 UX/UI and graphic design.  **/
@@ -134,12 +161,13 @@ a{
   border: 2px solid #333a40;
   outline: none;
   padding: 15px 30px;
-  background-color:#FAFAFA;
+  background-color:#ffffff;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
   border-radius: 5px;
   transition: 0.3s;
+  opacity: .5;
   
 }
 
@@ -148,7 +176,6 @@ a{
 }
 
 #logofolio{
-  
   left: 10%;
 }
 
@@ -157,6 +184,7 @@ a{
   background-color:#333a40;
   color:  #f5f1f1;
   font-weight: 600;
+  opacity: 1;
 }
 
 
@@ -483,6 +511,7 @@ display: none;
   .mobile-container {
     max-width: inherit;
     max-height: inherit;
+
     margin: auto;
     background-color: #FAFAFA;
     color:  #333a40;
