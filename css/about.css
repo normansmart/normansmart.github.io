@@ -117,16 +117,19 @@ display: inline-block;
 h1{
     font-weight: 600;
     font-size: 3rem;
-    
+    margin-top: 7%;
+  margin-bottom: 2%;
+ 
 }
 
 h2{
   margin-top: 5%;
   margin-bottom: 3%;
-  
+
   font-family: 'Montserrat' , sans-serif;  
   font-weight: 500;
   font-size: 1.5rem;
+
 }
 p{
     width: 80%;
@@ -181,87 +184,72 @@ p{
 
 
 
-
-
-.skills{
-  width: 60%;
+.skills-wrapper{
+  width: 1000px;
   margin: auto;
 
 
 }
 
-.skill{
+
+.skills{
+  width:1000px;
+
+display: inline-block;
+margin-top: 0px;
+
+
+}
+
+.skill-list{
+ width: 150px;
+ margin: 20px;
+ margin-bottom: 0px;
  
-  width: 15%;
-  color: #333a40;
-   text-align: center;
-   border-radius: 50px;
-   border: 1px solid #333a40;
-   display: inline-block;
-   margin-right: 1%;
-   margin-bottom: 2%;
-
+ font-size: 1.1rem;
+ font-weight: 500;
+ text-align: center;
+ border-radius: 50px;
+ border:1px solid #333a4094;
+ background-color: white;
+ float: left;
 }
 
-.skill p{
-width: 100%;
-
- 
-  font-weight: 400;
-   font-size: 1.1rem;
-   padding-top: 1%;
-   padding-bottom: 1%;
- 
-}
-
-.skill:hover{
-  color: white;
-  background-color: #333a40;
-  transition: .3s;
-}
-
-.skill p:hover{
-  color: white;
-}
 
 
 
 .toolkit{
-  width: 100%;
+  width: 1000px;
+  margin: 0;margin-top: 30px;
 
+
+display: inline-block;
 
 
 }
-
 
 .tools{
-  width: 15%;
-  display: inline-block;
+  width: 100px;
+margin: 3.5px;
   text-align: center;
-  margin-left: 4%;
-  margin-bottom: 3%;
-
-  border-radius: 20px;
+  display: inline-block;
+  border-radius: 10px;
   box-shadow: 0 4px 8px 0  #3535353f;
-  border: .5px solid  #333a4038;
-background-color: rgb(255, 255, 255);
+  background-color: white;
+  
+  
 }
 
-.tools-image{
-width: 40%;
-margin-top: 10%;
-
+.tools img{
+  width: 40%;
+  margin-top: 10px;
 }
 
-.tool-name{
-  width: 100%;
-
-
-  font-weight: 400;
-   font-size: 1.1rem;
-   padding-top: 1%;
-   padding-bottom: 1%;
+.tools h2{
+  font-size: 15px;
 }
+
+
 
 
 
@@ -350,6 +338,7 @@ margin-bottom: 5%;
   @media only screen and (max-width:1000px) {
  
     body{
+      width: 100%;
       overflow: scroll;
     }
     
@@ -423,7 +412,9 @@ margin-bottom: 5%;
       .home-mobile{
         width: 40px;
       }
-    
+
+
+   
 
 
 
