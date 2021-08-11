@@ -10,12 +10,19 @@ overflow: hidden;
  }
 
 
+a{
+  text-decoration: none;
+  color: #111C2B;
+}
 
 
 
 
+ .mobile-container {
 
+  display: none;
 
+}
 
 
 
@@ -669,7 +676,8 @@ border-radius: 20px;
   position: absolute;
   width: 45vw;
   height: 90vh;
-  background-color: #121D2B;
+  
+ background-image:  url("../images/home/aboutme-background.png");
  
   border-radius: 20px;
 display: none;
@@ -681,9 +689,6 @@ z-index: 3;
 
 .aboutme{
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
 
 }
@@ -694,24 +699,27 @@ z-index: 3;
 
 .profilepic{
   width: 30%;
+ margin-left: 35%;
+ margin-top: 30px;
 
 }
 
 
 .about-container{
-width: 70%;
+width: 100%;
 font-family: 'Lato', sans-serif;
-color: rgb(255, 255, 255);
+color:#111A27;
 
 
+text-align: center;
 }
 
 
 .about{
-  width: 95%;
+  width: 100%;
   font-family: 'Lato', sans-serif;
   font-size: 1.8rem;
- margin-left: 5%;
+
 }
 
 .social-container{
@@ -721,7 +729,7 @@ color: rgb(255, 255, 255);
 
 
 .social{
-  width: 20%;
+  width: 25%;
   display: inline-block;
 text-align: center;
  
@@ -734,19 +742,14 @@ text-align: center;
 
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
 
-margin-top: 0px;
+
 
 }
 
 
-.lifemap{
-  width: 98%;
 
-  margin-left: 1%;
-  
-}
 
 
 
@@ -759,28 +762,32 @@ margin-top: 0px;
   font-family: 'Lato', sans-serif;
   font-size: 1.5vw;
   font-weight: 700;
-color: white;
+color: #111A27;
+text-align: center;
 
 }
 
 
 
 .hello{
-  width: 95%;
+  width: 100%;
   float: right;
   font-family: 'Lato', sans-serif;
   font-size: 1.5vw;
   font-weight: 700;
-color: white;
+color: #111A27;
 
-margin-top: 7%;
-text-decoration: underline 2px;
+
+
 }
 
 
 .email{
   width: 100%;
+  font-size: 1.9vw;
+  font-weight: 600;
   text-align: center;
+ 
 }
 
 
@@ -828,7 +835,8 @@ display: none;
 
     margin: auto;
   
-    color:  #ffffff;
+    color:  #111A27;
+    display: block;
 
   }
 
@@ -836,12 +844,14 @@ display: none;
 
  a{
    text-decoration: none;
+   color: #111C2B;
  }
 
 
 .content{
   width: 90%;
   margin: auto;
+  background-image:  url("../images/home/aboutme-background.png");
  
 }
 
@@ -865,12 +875,13 @@ display: none;
 
   .photo{
     width: 40%;
+    margin-top: 10%;
   }
 
   
 .title{
     width: 100%;
-     color: white;
+     color: #111A27;
 
      font-weight: 500;
    
@@ -880,7 +891,7 @@ display: none;
 .sub-title{
   width: 80%;
   margin: auto;
-    color: rgb(255, 255, 255);
+    color: #111A27;
      font-weight: 400;
     font-size: 1.5em;
   
@@ -894,6 +905,7 @@ display: none;
 
 .social-name{
   font-size: .7em;
+  margin: 0px;
 }
 
 
@@ -920,15 +932,16 @@ margin-bottom: 300px;
 }
 
 .project-description{
-  background: #ffffff;
+
   border-radius: 25px ;
   margin-top: 60px;
+  border-bottom: #111A27 solid 1px;
 }
 
 
 .project-description h1{
   margin: auto;
-  color: #4e2828;
+  color: #111A27;
  width: 100%;
 
   font-weight: 400;
@@ -947,7 +960,7 @@ margin-bottom: 300px;
  
  width: 90%;
  margin-top: 0px;
-  color: #240a0a;
+  color: #111A27;
    font-weight: 400;
   font-size: 1.8em;
   line-height: 40px;
@@ -969,6 +982,7 @@ text-align: center;
   font-size: 40px;
   font-weight: 500;
   text-align: center;
+  margin-bottom: 10%;
 }
 
 .logofolio-mobile img{
@@ -1020,14 +1034,13 @@ text-align: center;
       margin: auto;
     
       color:  #ffffff;
+      display: block;
   
     }
   
     
   
-   a{
-     text-decoration: none;
-   }
+  
   
   
   .content{
